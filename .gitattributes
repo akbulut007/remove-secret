@@ -1,0 +1,8 @@
+# Gradle wrapper script (Unix format)
+gradlew text eol=lf
+
+# Windows batch files (CRLF line endings)
+*.bat text eol=crlf
+
+# Java archives (Binary files)
+*.jar binary
