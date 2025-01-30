@@ -1,0 +1,53 @@
+# Ignore build directories and files
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+.env
+*.db
+*.log
+target/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+
+### JBoss Forge ###
+forge-*.log
+
+### OS-specific ###
+.DS_Store  # macOS
+Thumbs.db  # Windows
